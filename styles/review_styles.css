@@ -1,0 +1,106 @@
+.review-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.review-section-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#review-section-text-testimonial {
+  color: var(--main-brown-color);
+}
+
+#review-section-text-head {
+  color: var(--main-brown-color);
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+#review-section-text-para {
+  color: #000000;
+}
+
+/* carousel */
+.carousel-item {
+  height: 18rem;
+  /* background: #777; */
+  color: #000000;
+  position: relative;
+}
+
+.carousel-indicators {
+  margin-bottom: 0 !important;
+}
+
+.carousel-indicators button {
+  background-color: #777 !important;
+}
+.carousel-indicators .active {
+  background-color: var(--main-brown-color) !important;
+}
+
+.review-items {
+  padding: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.review-items-person {
+  display: flex;
+  align-items: center;
+}
+
+.review-items-one {
+  width: 100%;
+  /* background-color: aquamarine; */
+}
+
+.review-items-two {
+  display: none;
+  width: 100%;
+  /* background-color: blueviolet; */
+}
+
+.person-details {
+  text-align: left;
+  font-size: 12px;
+}
+
+.person-details-ratings {
+  display: flex;
+}
+
+#person-details-ratings-star {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  background-image: url('/assets/images/Icon\ ionic-ios-star.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (min-width: 768px) {
+  .review-section {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .review-section-text {
+    padding: 0 50px;
+  }
+  .review-items {
+    display: flex;
+    justify-content: space-between;
+  }
+  .review-items-one {
+    width: 48%;
+  }
+  .review-items-two {
+    display: flex;
+    width: 48%;
+  }
+}

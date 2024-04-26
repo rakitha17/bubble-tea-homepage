@@ -1,0 +1,35 @@
+.adverticement-container {
+  width: 100%;
+  aspect-ratio: 1;
+  background-image: url('/assets/images/mobile/Group\ 1043.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+
+#adverticement-head {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+#adverticement-para {
+  font-weight: 100;
+}
+
+@media screen and (min-width: 768px) {
+  .adverticement-container {
+    padding-left: 100px;
+    padding-right: 100px;
+    aspect-ratio: 2.46;
+    background-image: url('/assets/images/web/Group\ 1041.png');
+  }
+  #adverticement-head {
+    inline-size: 70%;
+    margin-left: auto;
+  }
+  
+  #adverticement-para {
+    inline-size: 70%;
+    margin-left: auto;
+  }
+}

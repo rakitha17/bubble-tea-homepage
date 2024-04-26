@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="/styles/main_styles.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/navbar_style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/styles/bubble_tale_style.css"
+    />
+    <link rel="stylesheet" type="text/css" href="/styles/products_style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/styles/adverticement_style.css"
+    />
+    <link rel="stylesheet" type="text/css" href="/styles/review_styles.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/contact_style.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/footer_style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid navigation-fluid-container">
+        <a class="navbar-brand m-0" href="#">
+          <img
+            src="/assets/images/Primary Logo.png"
+            width="132px"
+            height="90px"
+            alt="Home of bubble tea"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-lg-2">
+              <a class="nav-link" aria-current="page" href="/#home">Home</a>
+            </li>
+            <li class="nav-item mx-lg-2">
+              <a class="nav-link" href="/#about">About Us</a>
+            </li>
+            <li class="nav-item mx-lg-2">
+              <a class="nav-link" href="/#products">Products</a>
+            </li>
+            <li class="nav-item mx-lg-2">
+              <a class="nav-link" href="/#faqs">FAQs</a>
+            </li>
+            <li class="nav-item mx-lg-2">
+              <a class="nav-link" href="/#contact">Contact Us</a>
+            </li>
+          </ul>
+          <a class="nav-link" href="#cart">
+            <i
+              id="navbarCartIcon"
+              role="img"
+              aria-hidden="true"
+              aria-label=""
+            ></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- main -->
+    <main class="main-body-container">
+      <div class="container-fluid body-hero-container" role="img" aria-label="">
+        <div class="hero-container-text">
+          <h1 id="hero-banner-head">Joy in Every Bubble Tea.</h1>
+          <p id="hero-banner-para">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Dignissimos expedita quos explicabo perferendis nam! Tenetur maxime
+            nostrum minima.
+          </p>
+        </div>
+      </div>
+      <!-- bubble tale -->
+      <div class="container-fluid bubble-tale">
+        <article class="bubble-tale-article-section">
+          <p id="bubble-tale-about">About Us</p>
+          <h2 id="bubble-tale-head">Our Bubble Tale</h2>
+          <p id="bubble-tale-para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum velit
+            incidunt, aperiam accusamus ab non cupiditate nobis rem.
+          </p>
+          <button type="button" class="btn btn-lg">Lord More</button>
+        </article>
+        <picture class="bubble-tale-image">
+          <source
+            media="(min-width: 576px)"
+            srcset="/assets/images/web/03c2ab3844da6a789bf162837684c81e.png"
+          />
+          <img
+            src="./assets/images/mobile/03c2ab3844da6a789bf162837684c81e.png"
+            alt=""
+          />
+        </picture>
+      </div>
+      <!-- bubble-products -->
+      <div class="container-fluid bubble-products text-center">
+        <div class="bubble-products-intro">
+          <p id="bubble-products-intro-title">Products</p>
+          <h2 id="bubble-products-intro-head">Bubbles of Joy</h2>
+          <p id="bubble-products-intro-para">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem
+            molestiae reprehenderit consequuntur, tenetur excepturi sequi
+            aliquid placeat quisquam, minima quidem earum est quod cupiditate
+            commodi temporibus pariatur consectetur cum praesentium.
+          </p>
+        </div>
+        <div class="row justify-content-between gx-3 text-center">
+          <div class="col-lg-6 col-xl-3">
+            <div class="bubble-products-item" role="button">
+              <img
+                id="bubble-products-item-image"
+                src="/assets/images/products/1.png"
+                alt="Milo bubble tea"
+              />
+            </div>
+            <p id="bubble-products-item-name">Milo Bubble Tea</p>
+          </div>
+          <div class="col-lg-6 col-xl-3">
+            <div class="bubble-products-item" role="button">
+              <img
+                id="bubble-products-item-image"
+                src="/assets/images/products/2.png"
+                alt="Blueberry bubble tea"
+              />
+            </div>
+            <p id="bubble-products-item-name">Blueberry Bubble Tea</p>
+          </div>
+          <div class="col-lg-6 col-xl-3">
+            <div class="bubble-products-item" role="button">
+              <img
+                id="bubble-products-item-image"
+                src="/assets/images/products/3.png"
+                alt="Strawberry bubble tea"
+              />
+            </div>
+            <p id="bubble-products-item-name">Strawberry Bubble Tea</p>
+          </div>
+          <div class="col-lg-6 col-xl-3">
+            <div class="bubble-products-item" role="button">
+              <img
+                id="bubble-products-item-image"
+                src="/assets/images/products/4.png"
+                alt="Chocolate bubble tea"
+              />
+            </div>
+            <p id="bubble-products-item-name">Chocolate Bubble Tea</p>
+          </div>
+        </div>
+        <button type="button" class="btn btn-lg">More Products</button>
+      </div>
+      <!-- adverticement -->
+      <div
+        class="container-fluid adverticement-container align-content-center text-end"
+      >
+        <h2 id="adverticement-head">Buy 1 Get 1 Free</h2>
+        <p id="adverticement-para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+          reprehenderit quod doloremque est corporis! Laudantium alias sapiente.
+        </p>
+      </div>
+      <!-- reviews-carousel -->
+      <div class="container-fluid review-section text-center">
+        <div class="review-section-text">
+          <p id="review-section-text-testimonial">Testimonial</p>
+          <h2 id="review-section-text-head">Bubble Bliss Reviews</h2>
+          <p id="review-section-text-para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container review-items">
+                <div class="review-items-person review-items-one">
+                  <img
+                    src="/assets/images/mobile/cute-smiling-young-man-with-bristle-looking-satisfied.png"
+                    alt="cute smiling young man with bristle looking"
+                    style="
+                      width: 151px;
+                      height: 200px;
+                      object-fit: contain;
+                      margin-right: 20px;
+                    "
+                  />
+                  <aside class="person-details">
+                    <p id="person-details-message">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                    <p id="person-details-name" style="margin: 5px">
+                      - John Treve -
+                    </p>
+                    <span class="person-details-ratings">
+                      <i id="person-details-ratings-star" role="img"></i>
+                      <i id="person-details-ratings-star" role="img"></i>
+                      <i id="person-details-ratings-star" role="img"></i>
+                      <i id="person-details-ratings-star" role="img"></i>
+                      <i id="person-details-ratings-star" role="img"></i>
+                    </span>
+                  </aside>
+                </div>
+                <div class="review-items-person review-items-two">
+                  <img
+                    src="/assets/images/mobile/cute-smiling-young-man-with-bristle-looking-satisfied.png"
+                    alt="cute smiling young man with bristle looking"
+                    style="
+                      width: 151px;
+                      height: 200px;
+                      object-fit: contain;
+                      margin-right: 20px;
+                    "
+                  />
+                  <aside class="person-details">
+                    <p id="person-details-message">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                    <p id="person-details-name" style="margin: 5px">
+                      - Anne Frank -
+                    </p>
+                    <span class="person-details-ratings">
+                      <i id="person-details-ratings-star" role="img"></i>
+                      <i id="person-details-ratings-star" role="img"></i>
+                      <i id="person-details-ratings-star" role="img"></i>
+                      <i id="person-details-ratings-star" role="img"></i>
+                      <i id="person-details-ratings-star" role="img"></i>
+                    </span>
+                  </aside>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container review-items">
+                <div class="review-items-one">slide one</div>
+                <div class="review-items-two">slide two</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- form-section -->
+      <div class="container-fluid contact-section">
+        <div class="contact-section-text">
+          <p id="contact-section-text-title">Contact Us</p>
+          <h2 id="contact-section-text-head">Contact Bubble Bliss</h2>
+        </div>
+        <div class="contact-section-option-container">
+          <div class="option-container-image">
+            <section class="contact-option">
+              <div class="option phone">
+                <span class="option-image">
+                  <img src="/assets/images/web/icons/Group 1006.png" alt="contact via phone" width="100%" height="auto" />
+                </span>
+                <div class="option-details">
+                  <p id="option-method">Phone</p>
+                <p id="option-info">+123 456 789</p>
+                </div>
+                
+              </div>
+              <div class="option address">
+                <span class="option-image">
+                  <img src="/assets/images/web/icons/Group 1007.png" alt="contact via address" width="100%" height="auto" />
+                </span>
+                <div class="option-details">
+                  <p id="option-method">Address</p>
+                <p id="option-info">No. 17, 5th Street, Colombo 07</p>
+                </div>
+                
+              </div>
+              <div class="option email">
+                <span class="option-image">
+                  <img src="/assets/images/web/icons/Group 1008.png" alt="contact via email" width="100%" height="auto" />
+                </span>
+                <div class="option-details">
+                  <p id="option-method">Email</p>
+                <p id="option-info">bubbletea@gmail.com</p>
+                </div>
+                
+              </div>
+            </section>
+          </div>
+          <div class="option-container-form">
+            <section class="container-fluid form-container">
+              <form class="text-center needs-validation form-data" novalidate>
+                <div class="form-floating mb-3">
+                  <input
+                    type="input"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="Type your name here"
+                    pattern= "^[A-Z][a-z]{1,}(?: [A-Z][a-zA-Z]*){0,2}$",
+                    required
+                  />
+                  <label for="floatingInput">Name <sup>*</sup></label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="Type your email here"
+                    pattern= "^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$",
+                  />
+                  <label for="floatingInput">Email Address</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="Type your phone number here"
+                    pattern= "^[+]1 [0-9]{3} [0-9]{3} [0-9]{3}",
+                    required
+                  />
+                  <label for="floatingInput">Phone <sup>*</sup</label>
+                </div>
+                <div class="form-floating">
+                  <textarea
+                    class="form-control"
+                    placeholder="Leave a message here"
+                    id="floatingTextarea"
+                    rows="10"
+                  ></textarea>
+                  <label for="floatingTextarea">Message</label>
+                </div>
+                <button
+                  type="submit"
+                  id="submit-btn"
+                  class="btn"
+                  style="margin-top: 50px;"
+                >
+                  Send
+                </button>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="body-footer-container">
+      <div class="container-fluid body-footer">
+        <div class="row justify-content-between gx-5">
+          <div class="col-12 col-lg-4">
+            <div class="summery">
+              <img src="/assets/images/Primary Logo.png" alt="bubble tea logo" width="132" height="90" style="margin-bottom: 30px;" />
+              <p id="summery-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="social-icons">
+                <span><img src="/assets/images/web/icons/Icon ionic-logo-whatsapp.png" width="100%" height="auto" /></span>
+                <span><img src="/assets/images/web/icons/Icon awesome-facebook.png" width="100%" height="auto" /></span>
+                <span><img src="/assets/images/web/icons/Icon awesome-instagram.png" width="100%" height="auto" /></span>
+                <span><img src="/assets/images/web/icons/Icon ionic-logo-youtube.png" width="100%" height="auto" /></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="footer-contact">
+              <p id="footer-contact-topic">Contact Us</p>
+              <p>Lorem ipsum dolor sit amet, consectetur</p>
+              <p id="footer-contact-topic">Phone</p>
+              <p>+123 456 7890</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="footer-links">
+              <p id="footer-contact-topic">Quick Links</p>
+              <ul style="text-decoration: none; list-style-type: none;">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Products</li>
+                <li>FAQs</li>
+                <li>Contact Us</li>
+                <li>Privacy Policy</li>
+                <li>Terms & Conditions</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="black-footer">
+        <p>Copyright © 2023 Bubble Tea (Pvt) Ltd. All Rights Reserved. Designed & Developed By <span style="color: var(--main-brown-color);">Archmage Solutions</span></p>
+      </div>
+    </footer>
+
+    <script src="/scripts/script.js"></script>
+  </body>
+</html>

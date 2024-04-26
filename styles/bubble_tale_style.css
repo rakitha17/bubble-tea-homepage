@@ -1,0 +1,66 @@
+.bubble-tale {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: lightcoral */
+}
+
+#bubble-tale-about {
+  color: var(--main-brown-color);
+}
+
+#bubble-tale-head {
+  color: var(--main-brown-color);
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+#bubble-tale-para {
+  color: #000000;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: var(--main-brown-color);
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 15px 50px;
+  font-weight: 100;
+  transition: all .2s ease-in;
+}
+.btn:hover {
+  background-color: #ffffff;
+  color: var(--main-brown-color);
+  border: 1px solid var(--main-brown-color);
+}
+
+.bubble-tale-image {
+  margin: 50px 0 0 0;
+}
+
+.bubble-tale-image img {
+  inline-size: 100%;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@media screen and (min-width: 992px) {
+  .bubble-tale {
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-direction: row-reverse;
+  }
+  .bubble-tale-article-section {
+    margin: auto 0;
+  }
+  #bubble-tale-head {
+    font-size: 50px;
+  }
+  .bubble-tale-image {
+    margin: 0 50px 0 0;
+  }
+}
