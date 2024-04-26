@@ -1,6 +1,6 @@
 // element
 const navbar = document.querySelector(".navbar")
-const form = document.querySelector(".form-data")
+// const form = document.querySelector(".form-data")
 
 //variables
 let scrollHeight = navbar.clientHeight
@@ -14,7 +14,7 @@ window.addEventListener("scroll", (event) => {
   }
 })
 
-form.addEventListener("submit", (e) => {
+/* form.addEventListener("submit", (e) => {
   // console.log(e)
   e.preventDefault()
   const formData = new FormData(form)
@@ -29,4 +29,4 @@ form.addEventListener("submit", (e) => {
   })
     .then((res) => res.json())
     .then((res) => console.log(res))
-})
+}) */
